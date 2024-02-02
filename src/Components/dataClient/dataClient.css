@@ -1,0 +1,46 @@
+.datacontainer{
+     display: grid;
+     background-color: var(--primary-color);
+     width: 100%;
+     height: 1000px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+
+.datamakingcontainer input{
+    color: rgb(43, 43, 43);
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: rgb(233, 233, 233);
+    
+
+}
+.lables{
+    display: grid;
+    align-items: center;
+    padding: auto;
+  
+    font-weight: 600;
+    
+}
+
+.lables select {
+   
+
+height: 60px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgb(233, 233, 233);
+  
+}
+.lables option{
+    
+    height: 40px;
+    border-radius: 20px    ;
+}
+

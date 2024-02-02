@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #2d2d2d;
+  }
+  
+  .btn {
+    padding: 0.6rem 0.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 0;
+    outline: none;
+    border-radius:20px;
+    width: 100%;
+    cursor: pointer;
+    background-color: black;
+    
+  }
+
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .btn.add {
+    color: #fff;
+    background-color: var(--primary-color);
+    width: 50px;
+    min-height: 25%;
+    font-size: 10px;
+    
+  }
+  .btn.add:hover {
+    background-color: rgb(209, 83, 61);
+  }
+  
+  .btn.add:active {
+    background-color: #ad9a1c;
+  }
+
+  
+  .btn.remove {
+    color: #fff;
+    background-color: var(--primary-color);
+    width: 50px;
+    min-height: 25%;
+    font-size: 10px;
+    font-weight: 700;
+    
+  }
+
+  .btn.remove:hover {
+    background-color: rgb(209, 83, 61);
+  }
+  .btn.remove:active {
+    background-color: rgb(185, 73, 54);
+  }
+  
+ 
+
+  .btn.mainButton{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+    height: 35px;
+    margin-top: 10px;
+    
+
+  }
+  .btn.mainButton:hover{
+    background-color: rgb(94, 78, 75);
+   color: #ffffff;
+    
+  }
+
+  .btn.handleAdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: var(--primary-color);
+    width: auto;
+  height: auto;
+  }
+  
+  .btn.handleAdd:hover {
+    background-color: rgb(209, 83, 61);
+  }
+  
+  .btn.handleAdd:active {
+    background-color: #ad9a1c;
+  }
+
+  .btn.handleRemove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: var(--primary-color);
+    
+    font-size: 13px;
+    margin-left: 7px;
+  }
+  
+  .btn.handleRemove:hover {
+    background-color: rgb(209, 83, 61);
+  }
+  
+  .btn.handleRemove:active {
+    background-color: #ad9a1c;
+  }

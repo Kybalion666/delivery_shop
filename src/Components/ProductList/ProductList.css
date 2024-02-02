@@ -1,0 +1,22 @@
+
+.containerproductlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Равномерное распределение между элементами */
+  background-color: var(--primary-color);
+  width: 100%;
+  height: auto;
+  
+  
+}
+
+.productlist {
+  width: calc(50% - 10px); /* 33.33% для трех колонок и -10px для отступов */
+  
+ 
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+
+  
